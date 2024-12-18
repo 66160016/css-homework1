@@ -1,0 +1,396 @@
+/* ===== รีเซ็ตพื้นฐาน ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Prompt", sans-serif;
+    background-color: #f8f9fa;
+    color: rgb(60, 60, 60);
+    line-height: 1.6;
+}
+
+/* ===== เฮดเดอร์ ===== */
+.header-home {
+    background-color: #4d7bae;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #ddd;
+}
+
+.header-home a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.header-home a:hover {
+    color: #ffd700;
+}
+
+/* ===== ส่วนแนะนำ ===== */
+.Introduction-main {
+    background-color: #ffffff;
+    color: rgb(103, 93, 78);
+    padding: 2.5rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.Introduction-main h1 {
+    font-size: 2.5rem;
+    color: #4d7bae;
+    margin-bottom: 1.5rem;
+}
+
+.Introduction-main p {
+    margin: 1rem 0;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+/* ===== เมนู ===== */
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: #ffffff;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #ddd;
+}
+
+.menu a {
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4d7bae;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: #4d7bae;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* ===== ภาพหลัก ===== */
+.img-home {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 2rem auto;
+    border-radius: 15px;
+    
+}
+
+/* .img-home:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+} */
+
+/* ===== ฟุตเตอร์ ===== */
+.footer {
+    background-color: #4d7bae;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.footer a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+/* ===== ปรับปรุงเล็กน้อย ===== */
+.img-highlight {
+    width: 80%; /* ปรับให้เล็กลงเหลือ 80% ของพื้นที่ */
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 10px;
+}
+.highlights-main {
+    font-size: 32px;
+    margin: 1.5rem auto;
+    padding: 2rem; /* เพิ่มพื้นที่ภายในกรอบ */
+    background: linear-gradient(135deg, #4d7bae, #a1c4fd); /* เพิ่มไล่สี */
+    color: #ffffff; 
+    border: none; 
+    border-radius: 20px; /* มุมโค้งมน */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* เงาชัดเจนขึ้น */
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+    font-weight: bold; /* เพิ่มความหนาของข้อความ */
+    
+}
+.highlights {
+    color: rgb(103, 93, 78);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* ===== รีเซ็ตพื้นฐาน ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Prompt", sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===== เฮดเดอร์ ===== */
+ .header-con {
+    background: linear-gradient(to right, #4d7bae, #6ea8d9);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.header-home a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    font-family: "Pacifico", cursive;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.header-home a:hover {
+    color: #ffd700;
+} */
+
+/* ===== เมนู ===== */
+ .menu {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    list-style: none;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ddd;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #4d7bae;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #4d7bae;
+    color: #fff;
+}
+
+/* ===== รูปภาพหลัก ===== */
+.img-home {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+/* ===== ส่วนหลัก (เนื้อหา) ===== */
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1rem;
+}
+
+/* ===== ส่วนย่อยแต่ละสถานที่ ===== */
+section {
+    background-color: #ffffff;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: grid;
+    /* grid-template-columns: 1fr 2fr; */
+    gap: 1.5rem;
+    align-items: center;
+}
+
+section:nth-child(even) {
+    grid-template-columns: 2fr 1fr;
+}
+
+section div:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4d7bae;
+    grid-column: span 2;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section div:last-child {
+    color: #555;
+    line-height: 1.8;
+}
+
+/* ===== ฟุตเตอร์ ===== */
+.footer {
+    text-align: center;
+    background-color: #4d7bae;
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+    transition: 0.3s ease;
+} 
+footer {
+    background-color: #4d7bae; /* สีพื้นหลัง */
+    color: #fff; /* สีตัวอักษร */
+    text-align: center;
+    padding: 1rem 0; /* เพิ่มความห่างด้านบนและล่าง */
+    font-size: 1rem;
+    margin-top: 2rem; /* เว้นระยะด้านบน */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* เพิ่มเงาด้านบน */
+    border-top: 3px solid #ffd700; /* เส้นขอบสีทองด้านบน */
+}
+
+footer p {
+    margin: 0; /* เอา margin ค่าเริ่มต้นออก */
+    font-weight: bold;
+    letter-spacing: 1px; /* เว้นระยะห่างตัวอักษร */
+}
+/* ===== ฟอร์มติดต่อ ===== */
+form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #4d7bae;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #4d7bae;
+    box-shadow: 0 0 5px rgba(77, 123, 174, 0.5);
+    outline: none;
+}
+
+textarea {
+    resize: vertical; /* อนุญาตให้ย่อ-ขยายได้เฉพาะแนวตั้ง */
+}
+
+small {
+    display: block;
+    margin-top: 0.5rem;
+    color: #888;
+    font-size: 0.875rem;
+}
+
+button {
+    display: inline-block;
+    background-color: #4d7bae;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #3c6a96;
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(77, 123, 174, 0.7);
+}
+.menu-icon{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+.menu-icon .bar{
+    width: 25px;
+    height: 3px;
+    background-color: #000000;
+}
+
+/* ===== Responsive Design ===== */
+@media screen and (max-width: 800px) {
+    .menu-icon {
+        display: flex;
+        cursor: pointer;
+        width: 30px;
+        height: 25px;
+        position: relative;
+    }
+} 
